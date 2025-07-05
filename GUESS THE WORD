@@ -1,0 +1,26 @@
+import random
+
+words = ["apple", "banana", "grapes", "mango", "orange"]
+word = random.choice(words)
+guessed = ["_"] * len(word)
+tries = 6
+
+print("🔤 Guess the Word Game")
+print("Word:", " ".join(guessed))
+
+while tries > 0 and "_" in guessed:
+    guess = input("Enter a letter: ").lower()
+    if guess in word:
+        for i in range(len(word)):
+            if word[i] == guess:
+                guessed[i] = guess
+        print("✅ Correct:", " ".join(guessed))
+    else:
+        tries -= 1
+        print(f"❌ Wrong! Tries left: {tries}")
+        print("Word:", " ".join(guessed))
+
+if "_" not in guessed:
+    print("🎉 You guessed it right! The word was:", word)
+else:
+    print("💀 You lost! The word was:", word)
