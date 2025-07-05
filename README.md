@@ -4,6 +4,7 @@ This collection includes 5 fun games written in Python. All games are terminal-b
 🎮 List of Games:
 1. Guess the Word
 Description: The player has to guess a randomly selected word letter by letter.
+
 Features:
 1)Secret word is hidden.
 2)User guesses one letter at a time.
@@ -11,7 +12,7 @@ Features:
 How to Run:
 python guess_the_word.py
 
-2. Quiz Game
+3. Quiz Game
 Description: A simple text-based quiz with multiple questions.
 Features:
 1)Asks questions one by one.
@@ -20,7 +21,7 @@ Features:
 How to Run:
 python quiz_game.py
 
-3. Rock Paper Scissors
+4. Rock Paper Scissors
 Description: Classic 1-player game against the computer.
 Features:
 1)User chooses rock, paper, or scissors.
@@ -29,7 +30,7 @@ Features:
 How to Run:
 python rock_paper_scissors.py
 
-4. Snake Game
+5. Snake Game
 Description: A graphical snake game using the turtle module.
 Features:
 1)Use W, A, S, D to control the snake.
@@ -39,7 +40,7 @@ How to Run:
 python snake_game.py
 (Make sure you run this in a window, not a terminal-only interface)
 
-5. Tic Tac Toe
+6. Tic Tac Toe
 Description: A 2-player game (X and O) played in the terminal.
 Features:
 1)Takes turns for each player.
